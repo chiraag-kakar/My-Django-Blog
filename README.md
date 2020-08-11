@@ -33,7 +33,7 @@ A PythonAnywhere Account (for deploying the project on a live system)
 *or*
  
  
-  Download the Windows x86 executable installer for 32-bit version of Windows.
+ <br>Download the Windows x86 executable installer for 32-bit version of Windows.
 * Make sure to check "Add Python 3.x to Path" in the setup window of the Installer.
 
 Once you have installed Python the installation can be verified from the command prompt using following command :
@@ -41,6 +41,8 @@ Once you have installed Python the installation can be verified from the command
 python --version
 ```
 And the installed version of python will printed.
+
+
 ---
 **Step 3**: Installing Django 
 

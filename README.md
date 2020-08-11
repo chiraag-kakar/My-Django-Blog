@@ -29,8 +29,10 @@ A PythonAnywhere Account (for deploying the project on a live system)
 * Click on the "Latest Python 3 Release - Python x.x.x" link.
 
 
-** Download the Windows x86-64 executable installer for 64-bit version of Windows 
-*or*  
+** Download the Windows x86-64 executable installer for 64-bit version of Windows
+<br>
+*or*
+<br>
 ** Download the Windows x86 executable installer for 32-bit version of Windows.
 
 

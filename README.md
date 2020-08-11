@@ -38,11 +38,11 @@ A PythonAnywhere Account (for deploying the project on a live system)
 
 * Make sure to check "Add Python 3.x to Path" in the setup window of the Installer.
 
-Once you have installed Python the installation can be verified from the command prompt using following command :
+Verify the installation from the command prompt using following command :
 ```
 python --version
 ```
-And the installed version of python will printed.
+And the installed version of python will be printed.
 
 
 ---

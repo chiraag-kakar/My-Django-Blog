@@ -31,7 +31,7 @@ A PythonAnywhere Account (for deploying the project on a live system)
 
 ** Download the Windows x86-64 executable installer for 64-bit version of Windows
 <br>
-<center>*or*</center>
+*or*
 <br>
 ** Download the Windows x86 executable installer for 32-bit version of Windows.
 
@@ -46,7 +46,19 @@ And the installed version of python will printed.
 
 
 ---
-**Step 3**: Installing Django 
+**Step 3**: Creating Project Directory
+---
+**Step 4**: Cloning Repository using Git
+---
+**Step 5**: Creating Virtual Environment
+---
+**Step 6**: Installing Requirements
+---
+**Step 7**: Running the Project in local server
+---
+
+
+## Deployment
 
 
 

@@ -31,7 +31,7 @@ A PythonAnywhere Account (for deploying the project on a live system)
 
 ** Download the Windows x86-64 executable installer for 64-bit version of Windows
 <br>
-*or*
+<center>*or*</center>
 <br>
 ** Download the Windows x86 executable installer for 32-bit version of Windows.
 

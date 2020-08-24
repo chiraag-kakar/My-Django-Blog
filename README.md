@@ -49,13 +49,27 @@ cd mydblog
 ```
 ---
 **Step 4**: Cloning Repository using Git
-
+```
+git clone https://github.com/chiraag-kakar/The-Django-Blog.git
+```
 ---
 **Step 5**: Creating Virtual Environment
+```
+cd The-Django-Blog
+python -m venv myvenv
+myvenv\Scripts\activate
+```
 ---
 **Step 6**: Installing Requirements
+```
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
 ---
 **Step 7**: Running the Project in local server
+```
+python manage.py runserver
+```
 ---
 
 

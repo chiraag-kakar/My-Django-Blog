@@ -42,8 +42,14 @@ And the installed version of python will be printed.
 
 ---
 **Step 3**: Creating Project Directory
+```
+cd desktop
+mkdir mydblog
+cd mydblog
+```
 ---
 **Step 4**: Cloning Repository using Git
+
 ---
 **Step 5**: Creating Virtual Environment
 ---

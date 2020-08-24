@@ -27,11 +27,8 @@ A PythonAnywhere Account (for deploying the project on a live system)
 **Step 2** : Installing Python
 * Click on [Download Python](https://www.python.org/downloads/windows/).
 * Click on the "Latest Python 3 Release - Python x.x.x" link.
-  * * Download the Windows x86-64 executable installer for 64-bit version of Windows
-<br>
-      *or*
-<br>
-  * * Download the Windows x86 executable installer for 32-bit version of Windows.
+   * * Download the Windows x86-64 executable installer for 64-bit version of Windows
+   * * Download the Windows x86 executable installer for 32-bit version of Windows.
 
 
 * Make sure to check "Add Python 3.x to Path" in the setup window of the Installer.

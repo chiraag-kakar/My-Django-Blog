@@ -1,5 +1,5 @@
-# The Django Blog
-A Simple Blog Application built using Django Framework.
+# My Django Blog
+A Simple Blog Application built using **[Django](https://docs.djangoproject.com/en/3.1/)** Framework.
 
 ## Getting Started
 
@@ -16,7 +16,7 @@ A PythonAnywhere Account (for deploying the project on a live system)
 ### Development Environment Setup : Windows
 **Step 1** : Downloading and Installing the Code Editor
 
-| Code Editor | Link 	|
+| **Code Editor** | **Link** 	|
 |-	|-	|
 | Visual Studio Code 	| [Download it from here](https://code.visualstudio.com/)	|
 | Sublime Text 3 	| [Download it from here](https://www.sublimetext.com/3) |
@@ -45,7 +45,9 @@ And the installed version of python will be printed.
 
 ```
 cd desktop
+
 mkdir mydblog
+
 cd mydblog
 ```
 ---
@@ -53,31 +55,48 @@ cd mydblog
 ```
 git clone https://github.com/chiraag-kakar/The-Django-Blog.git
 ```
+Note: The cloned repo directory need to be renamed as "My-Django-Blog".
 
 ---
 **Step 5**: Creating Virtual Environment
-```
-cd The-Django-Blog
-```
 
+Change the directory to the required one where the virtual environment will be created :
+```
+cd My-Django-Blog
+```
+Creating Virtual Environment named "myvenv" :
 ```
 python -m venv myvenv
 ```
-
+Activating "myvenv" :
 ```
 myvenv\Scripts\activate
 ```
+Command to deactivate "myvenv" :
 ```
 deactivate
 ```
 ---
 **Step 6**: Installing Requirements
+Note: Virtual Environment should be activated.
+
+
+Upgrading pip to the latest version :
 ```
 python -m pip install --upgrade pip
+```
+
+
+Installing requirements :
+```
 pip install -r requirements.txt
 ```
 ---
 **Step 7**: Running the Project in local server
+Note: Virtual Environment should be activated.
+
+
+Run the following command in the terminal :
 ```
 python manage.py runserver
 ```

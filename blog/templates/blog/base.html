@@ -1,14 +1,14 @@
 {% load static %}
 <html>
     <head>
-        <title>The Django Blog</title>
-<<<<<<< HEAD
+        <title>My Django Blog</title>
+
 
        	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-=======
+
        <!-- CSS only -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
->>>>>>> ee67b63c1090b824614f3e187317053e31c7851e
+
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
@@ -17,10 +17,14 @@
     <body>
         <div class="page-header">
             {% if user.is_authenticated %}
-            <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+                <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+                <a href="{% url 'post_draft_list' %}" class="top-menu"><span class="glyphicon glyphicon-edit"></span></a>
+                <p class="top-menu">Welcome {{ user.username }} <a href="{% url 'logout' %}"><span class="glyphicon glyphicon-off"></a></p>
+            {% else %}
+                <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-user"></span></a>
             {% endif %}
-            <h1><a href="/">The Django Blog</a></h1>
-        </div>
+            <h1><a href="/">My Django Blog</a></h1>
+        </div> 
         <div class="content container">
             <div class="row">
                 <div class="col-md-8">

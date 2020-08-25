@@ -1,4 +1,3 @@
-# My Django Blog
 A Simple Blog Application built using **[Django](https://docs.djangoproject.com/en/3.1/)** Framework.
 
 ## Getting Started

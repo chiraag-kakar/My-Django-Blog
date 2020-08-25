@@ -9,7 +9,6 @@ These instructions will get you a copy of the project up and running on your loc
 ```
 Any Code Editor (VS Code preferred)
 Python version 3.7 or higher
-Django version 2.2.4
 Latest version of Git
 A PythonAnywhere Account (for deploying the project on a live system)
 ```
@@ -41,7 +40,9 @@ And the installed version of python will be printed.
 
 
 ---
-**Step 3**: Creating Project Directory
+**Step 3**: Creating Project Directory 
+(Note : We are creating project directory in the desktop for ease of access)
+
 ```
 cd desktop
 mkdir mydblog
@@ -52,12 +53,22 @@ cd mydblog
 ```
 git clone https://github.com/chiraag-kakar/The-Django-Blog.git
 ```
+
 ---
 **Step 5**: Creating Virtual Environment
 ```
 cd The-Django-Blog
+```
+
+```
 python -m venv myvenv
+```
+
+```
 myvenv\Scripts\activate
+```
+```
+deactivate
 ```
 ---
 **Step 6**: Installing Requirements
@@ -70,9 +81,8 @@ pip install -r requirements.txt
 ```
 python manage.py runserver
 ```
+
 ---
-
-
 ## Deployment
 
 

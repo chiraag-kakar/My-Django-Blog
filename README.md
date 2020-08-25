@@ -41,6 +41,8 @@ And the installed version of python will be printed.
 
 ---
 **Step 3**: Creating Project Directory 
+
+
 (Note : We are creating project directory in the desktop for ease of access)
 
 ```
@@ -78,6 +80,8 @@ deactivate
 ```
 ---
 **Step 6**: Installing Requirements
+
+
 Note: Virtual Environment should be activated.
 
 
@@ -93,6 +97,8 @@ pip install -r requirements.txt
 ```
 ---
 **Step 7**: Running the Project in local server
+
+
 Note: Virtual Environment should be activated.
 
 

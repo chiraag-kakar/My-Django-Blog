@@ -1,4 +1,6 @@
-A Simple Blog Application built using **[Django](https://docs.djangoproject.com/en/3.1/)** Framework.
+**A Simple Blog Application built using [Django](https://docs.djangoproject.com/en/3.1/) Framework.**
+
+                                      😃Hit that `Star` button to show some ❤️
 
 ## Getting Started
 
@@ -118,6 +120,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Django Girls Tutorial
-
-
-**Hit that `Star` button to show some ❤️**

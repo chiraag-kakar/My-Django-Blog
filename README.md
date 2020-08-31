@@ -96,8 +96,17 @@ Installing requirements :
 ```
 pip install -r requirements.txt
 ```
+**Step 7**: Creating Superuser and making database migrations to access the default Admin Panel
+```
+python manage.py createsuperuser
+```
+```
+python manage.py makemigrations blog
+python manage.py migrate blog
+```
+
 ---
-**Step 7**: Running the Project in local server
+**Step 8**: Running the Project in local server
 
 
 Note: Virtual Environment should be activated.

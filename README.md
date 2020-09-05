@@ -1,3 +1,6 @@
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/chiraag-kakar/My-Django-Blog/pulls)
+
+
 **A Simple Blog Application built using [Django](https://docs.djangoproject.com/en/3.1/) Framework.**
 
                                       😃Hit that ⭐ button to show some ❤️           

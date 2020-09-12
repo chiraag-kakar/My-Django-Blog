@@ -59,7 +59,7 @@ cd mydblog
 ---
 **Step 4**: Cloning Repository using Git
 ```
-git clone https://github.com/chiraag-kakar/The-Django-Blog.git
+git clone https://github.com/chiraag-kakar/My-Django-Blog.git
 ```
 Note: The cloned repo directory need to be renamed as "My-Django-Blog".
 

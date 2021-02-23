@@ -123,6 +123,17 @@ python manage.py runserver
 ---
 ## Deployment
 
+Sign Up for a free account in Pythonanywhere.com and generate an API token.
+
+```
+pip3.7 install --user pythonanywhere
+
+pa_autoconfigure_django.py --python=3.7 https://github.com/<your-github-username>/<your-github-repo-link>.git
+
+python manage.py createsuperuser
+
+python manage.py collectstatic
+```
 
 
 ## License
